@@ -50,4 +50,32 @@
     <Stats localGunPointPos="30,30" animName="Nova" splashSprite="Nova"
       startingBrands="None,None"></Stats>
   </Being>
+  <!-- <Being beingID="ノヴァTest">
+    <Name>ノヴァ</Name>
+    <Title>ノヴァ=テスト</Title>
+    <Tags>Campaign, Unlock</Tags>
+    <Description>小悪魔系な見た目と中二病気質な口癖が特徴の少女。</Description>
+    <Flavor>黒き闇には白き光を！</Flavor>
+    <Weapon>NovaSupernova</Weapon>
+    <Health>400</Health>
+    <MaxHealth>400</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>10</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>3.6</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>Backstab</Deck>
+    <Deck>ArkAura</Deck>
+    <Deck>RandomBad</Deck>
+    <Deck>LargeSnake</Deck>
+    <Deck>PlayingSimilarInstruments</Deck>
+    <Deck>HolyGround</Deck>
+    <Artifacts>HanpanaiDistraction</Artifacts>
+    <Artifacts>NeverSurrender</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Nova" splashSprite="Nova"
+      startingBrands="None,None"></Stats>
+  </Being> -->
 </Beings>

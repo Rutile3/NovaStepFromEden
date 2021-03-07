@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="ArkAura" frameDuration="70">
+	<Frame image="sprites/ArkAura/ArkAura1.png"></Frame>
+	<Frame image="sprites/ArkAura/ArkAura2.png"></Frame>
+	<Frame image="sprites/ArkAura/ArkAura3.png"></Frame>
+	<Frame image="sprites/ArkAura/ArkAura4.png"></Frame>
+	<Frame image="sprites/ArkAura/ArkAura5.png"></Frame>
+</Animation>

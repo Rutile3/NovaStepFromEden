@@ -93,7 +93,7 @@
     <Brand>WIXOSS</Brand>
     <Rarity>4</Rarity>
     <Mana>4</Mana>
-    <Damage>120</Damage>
+    <Damage>100</Damage>
     <Shots>1</Shots>
     <Tiles>0</Tiles>
     <Location Shape="ColumnSmall">Front</Location>
@@ -104,7 +104,7 @@
     <CastDelay>0</CastDelay>
     <BlastDuration>0.6</BlastDuration>
     <WarningDuration>0</WarningDuration>
-    <TouchTile amount="150" value="SupernovaCrystal">Summon</TouchTile>
+    <TouchTile amount="100" value="SupernovaCrystal">Summon</TouchTile>
   </Spell>
   <Spell itemID="NovaMute">
     <Stats animBlast="BasicCast" animShot="BasicSpell" introSound="gun_cock_35ms"
@@ -176,7 +176,6 @@
     <Flavor>ドララララ！</Flavor>
     <Brand>WIXOSS</Brand>
     <Rarity>2</Rarity>
-    <Brand>Wixoss</Brand>
     <Mana>1</Mana>
     <Damage>10</Damage>
     <Shots>1</Shots>
@@ -229,7 +228,7 @@
     <Action>Multishot</Action>
     <Description></Description>
     <Meta>Comes from SupernovaCrystal death</Meta>
-    <Damage>150</Damage>
+    <Damage>100</Damage>
     <Shots>8</Shots>
     <Tiles>8</Tiles>
     <Location>FrontAll</Location>
@@ -243,5 +242,37 @@
     <DestroyOnHit>false</DestroyOnHit>
     <OnCast></OnCast>
     <OnHit amount="1" duration="0">Move</OnHit>
+  </Spell>
+  <Spell itemID="ArkAura">
+    <Stats animCast="ArkAura" animBlast="" animShot="ArkAura" castSound="slash_light"
+      shotSound="woosh_fast" setToGunPoint="Vertical" spawnOffsetX="1">></Stats>
+    <HitAllies></HitAllies>
+    <HitEnemies>true</HitEnemies>
+    <HitSelf>true</HitSelf>
+    <HitStructures>true</HitStructures>
+    <Name>アーク・オーラ</Name>
+    <Description>別のスロットにあるスペルを%hg%破棄%/hg%し、光の剣を、敵の背後からすべての列に射出。</Description>
+    <Flavor>数多の時を指し示す剣。</Flavor>
+    <Brand>WIXOSS</Brand>
+    <Tags>Player</Tags>
+    <Action>Multishot</Action>
+    <Meta>Pull sword from end of other side</Meta>
+    <Rarity>4</Rarity>
+    <Brand>WIXOSS</Brand>
+    <Mana>5</Mana>
+    <Damage>400</Damage>
+    <Shots>4</Shots>
+    <Tiles>0</Tiles>
+    <Location Shape="Column" Position="7">Base</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>-600</ShotVelocity>
+    <ShotDuration>2</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0.6</CastDelay>
+    <CastDuration>0.6</CastDuration>
+    <BlastDuration>0.6</BlastDuration>
+    <DestroyOnHit>true</DestroyOnHit>
+    <OnCast></OnCast>
+    <OnCast check="Never">Backfire</OnCast>
   </Spell>
 </Spells>
