@@ -55,6 +55,29 @@
     <BlastDuration>0</BlastDuration>
     <DestroyOnHit></DestroyOnHit>
   </Spell>
+  <Spell itemID="NeverSurrenderResurrect">
+    <Stats animBlast="BasicCast" animShot="NeverSurrenderResurrect" introSound="laser_recharge" castSound="misc_shimmer"
+      shotSound="light_spell" setToGunPoint="None" spawnOffsetY="-1"></Stats>
+    <HitAllies></HitAllies>
+    <HitSelf>true</HitSelf>
+    <Name>NeverSurrenderResurrect</Name>
+    <Tags>Cpu</Tags>
+    <Action>Multishot</Action>
+    <Description></Description>
+    <Meta>Resurrect and heal</Meta>
+    <Damage>Zero</Damage>
+    <Shots>1</Shots>
+    <Tiles>1</Tiles>
+    <Location>Current</Location>
+    <TimeBetweenShots>0</TimeBetweenShots>
+    <ShotVelocity>0</ShotVelocity>
+    <ShotDuration>0.5</ShotDuration>
+    <ShotDelay></ShotDelay>
+    <CastDelay>0</CastDelay>
+    <CastDuration>0</CastDuration>
+    <DestroyOnHit>false</DestroyOnHit>
+    <OnCast amount="200" target="Self">Heal</OnCast>
+  </Spell>
   <Spell itemID="NovaSupernova">
     <Stats animBlast="SummonGridS" animShot="" castSound="mark_01" shotSound="ice_rustle"
       setToGunPoint="Both" timeToTravel="0.1" bending="10"></Stats>
@@ -220,28 +243,5 @@
     <DestroyOnHit>false</DestroyOnHit>
     <OnCast></OnCast>
     <OnHit amount="1" duration="0">Move</OnHit>
-  </Spell>
-  <Spell itemID="NeverSurrenderResurrect">
-    <Stats animBlast="BasicCast" animShot="NeverSurrenderResurrect" introSound="laser_recharge" castSound="misc_shimmer"
-      shotSound="light_spell" setToGunPoint="None" spawnOffsetY="500"></Stats>
-    <HitAllies></HitAllies>
-    <HitSelf>true</HitSelf>
-    <Name>NeverSurrenderResurrect</Name>
-    <Tags>Cpu</Tags>
-    <Action>Multishot</Action>
-    <Description></Description>
-    <Meta>Resurrect and heal</Meta>
-    <Damage>Zero</Damage>
-    <Shots>1</Shots>
-    <Tiles>1</Tiles>
-    <Location>Current</Location>
-    <TimeBetweenShots>0</TimeBetweenShots>
-    <ShotVelocity>0</ShotVelocity>
-    <ShotDuration>0.1</ShotDuration>
-    <ShotDelay></ShotDelay>
-    <CastDelay>0.3</CastDelay>
-    <CastDuration>0</CastDuration>
-    <DestroyOnHit>false</DestroyOnHit>
-    <OnCast amount="200" target="Self">Heal</OnCast>
   </Spell>
 </Spells>

@@ -25,10 +25,11 @@
   <Artifact itemID="NeverSurrender">
     <Name>ネバー・サレンダー</Name>
     <Tags>Player, Starting, Solo</Tags>
-    <App trigger="OnDeath" effect="CastSpell" value="NeverSurrenderResurrect"></App>
-    <App trigger="OnDeath" effect="Deplete"></App>
-    <Description>死亡時に、一度だけHPを200%hg%回復%/hg%。
-    </Description>
+    <App trigger="OnHPBelow" effect="Deplete" triggerAmount="100"></App>
+    <App trigger="OnHPBelow" effect="CastSpell" triggerAmount="100" value="NeverSurrenderResurrect"></App>
+    <!-- <App trigger="OnDeath" effect="CastSpell" value="NeverSurrenderResurrect"></App>
+    <App trigger="OnDeath" effect="Deplete"></App> -->
+    <Description>HPが100を下回った時、一度だけHPを200%hg%回復%/hg%。</Description>
     <Meta>Come back to life and heal 200 hp on death, only works once</Meta>
     <Flavor>諦めないことを、前に叫ぶこと！</Flavor>
     <Rarity>2</Rarity>
