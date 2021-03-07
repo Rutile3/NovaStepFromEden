@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Beings>
-  <Being beingID="Nova01">
+  <Being beingID="ノヴァ">
     <Name>ノヴァ</Name>
     <Title>ノヴァ=ミュート</Title>
     <Tags>Campaign, Default, Unlock</Tags>
@@ -25,7 +25,7 @@
     <Stats localGunPointPos="30,30" animName="Nova" splashSprite="Nova"
       startingBrands="None,None"></Stats>
   </Being>
-  <Being beingID="Nova02">
+  <Being beingID="ノヴァAlt">
     <Name>ノヴァ</Name>
     <Title>ノヴァ=スーパーノヴァ</Title>
     <Tags>Campaign, Unlock</Tags>
