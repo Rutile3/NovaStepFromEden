@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animations>
+	<Animation loop="true" name="Nova_idle" frameDuration="120">
+		<Frame image="sprites/Nova/Nova4.png"></Frame>
+		<Frame image="sprites/Nova/Nova5.png"></Frame>
+		<Frame image="sprites/Nova/Nova6.png"></Frame>
+		<Frame image="sprites/Nova/Nova7.png"></Frame>
+		<Frame image="sprites/Nova/Nova8.png"></Frame>
+		<Frame image="sprites/Nova/Nova1.png"></Frame>
+		<Frame image="sprites/Nova/Nova2.png"></Frame>
+		<Frame image="sprites/Nova/Nova3.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_spawn" frameDuration="120">
+		<Frame image="sprites/Nova/Nova29.png"></Frame>
+		<Frame image="sprites/Nova/Nova30.png"></Frame>
+		<Frame image="sprites/Nova/Nova31.png"></Frame>
+		<Frame image="sprites/Nova/Nova32.png"></Frame>
+		<Frame image="sprites/Nova/Nova33.png"></Frame>
+		<Frame image="sprites/Nova/Nova34.png"></Frame>
+		<Frame image="sprites/Nova/Nova35.png"></Frame>
+		<Frame image="sprites/Nova/Nova36.png"></Frame>
+		<Frame image="sprites/Nova/Nova1.png"></Frame>
+		<Frame image="sprites/Nova/Nova2.png"></Frame>
+		<Frame image="sprites/Nova/Nova3.png"></Frame>
+		<Frame image="sprites/Nova/Nova4.png"></Frame>
+		<Frame image="sprites/Nova/Nova5.png"></Frame>
+		<Frame image="sprites/Nova/Nova6.png"></Frame>
+		<Frame image="sprites/Nova/Nova7.png"></Frame>
+		<Frame image="sprites/Nova/Nova8.png"></Frame>
+		<Frame image="sprites/Nova/Nova1.png"></Frame>
+		<Frame image="sprites/Nova/Nova2.png"></Frame>
+		<Frame image="sprites/Nova/Nova3.png"></Frame>
+	</Animation>
+
+	<Animation loop="true" name="Nova_dashing" frameDuration="100">
+		<Frame image="sprites/Nova/Nova10.png"></Frame>
+		<Frame image="sprites/Nova/Nova11.png"></Frame>
+		<Frame image="sprites/Nova/Nova12.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_front" frameDuration="70">
+		<Frame image="sprites/Nova/Nova12.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_back" frameDuration="70">
+		<Frame image="sprites/Nova/Nova13.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_hop" frameDuration="70">
+		<Frame image="sprites/Nova/Nova14.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_drop" frameDuration="70">
+		<Frame image="sprites/Nova/Nova15.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast01Start" frameDuration="80">
+		<Frame image="sprites/Nova/Nova29.png"></Frame>
+		<Frame image="sprites/Nova/Nova30.png"></Frame>
+		<Frame image="sprites/Nova/Nova31.png"></Frame>
+		<Frame image="sprites/Nova/Nova32.png"></Frame>
+		<Frame image="sprites/Nova/Nova33.png"></Frame>
+		<Frame image="sprites/Nova/Nova34.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast01Mid" frameDuration="70">
+		<Frame image="sprites/Nova/Nova35.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast01End" frameDuration="70">
+		<Frame image="sprites/Nova/Nova36.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast02Start" frameDuration="80">
+		<Frame image="sprites/Nova/Nova29.png"></Frame>
+		<Frame image="sprites/Nova/Nova30.png"></Frame>
+		<Frame image="sprites/Nova/Nova31.png"></Frame>
+		<Frame image="sprites/Nova/Nova32.png"></Frame>
+		<Frame image="sprites/Nova/Nova33.png"></Frame>
+		<Frame image="sprites/Nova/Nova34.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast02Mid" frameDuration="70">
+		<Frame image="sprites/Nova/Nova35.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast02End" frameDuration="70">
+		<Frame image="sprites/Nova/Nova36.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast03Start" frameDuration="80">
+		<Frame image="sprites/Nova/Nova29.png"></Frame>
+		<Frame image="sprites/Nova/Nova30.png"></Frame>
+		<Frame image="sprites/Nova/Nova31.png"></Frame>
+		<Frame image="sprites/Nova/Nova32.png"></Frame>
+		<Frame image="sprites/Nova/Nova33.png"></Frame>
+		<Frame image="sprites/Nova/Nova34.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast03Mid" frameDuration="70">
+		<Frame image="sprites/Nova/Nova35.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_cast03End" frameDuration="70">
+		<Frame image="sprites/Nova/Nova36.png"></Frame>
+	</Animation>
+
+
+	<Animation loop="true" name="Nova_channel" frameDuration="80">
+		<Frame image="sprites/Nova/Nova29.png"></Frame>
+		<Frame image="sprites/Nova/Nova30.png"></Frame>
+		<Frame image="sprites/Nova/Nova31.png"></Frame>
+		<Frame image="sprites/Nova/Nova32.png"></Frame>
+		<Frame image="sprites/Nova/Nova33.png"></Frame>
+		<Frame image="sprites/Nova/Nova34.png"></Frame>
+		<Frame image="sprites/Nova/Nova35.png"></Frame>
+		<Frame image="sprites/Nova/Nova36.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_hit" frameDuration="20">
+		<Frame image="sprites/Nova/Nova28.png"></Frame>
+	</Animation>
+
+	<Animation loop="false" name="Nova_down" frameDuration="35">
+		<Frame image="sprites/Nova/Nova25.png"></Frame>
+	</Animation>
+
+	<Animation loop="true" name="Nova_downed" frameDuration="500">
+		<Frame image="sprites/Nova/Nova26.png"></Frame>
+		<Frame image="sprites/Nova/Nova27.png"></Frame>
+	</Animation>
+
+
+	<Animation loop="false" name="Nova_death" frameDuration="30">
+		<Frame image="sprites/Nova/Nova25.png"></Frame>
+	</Animation>
+
+</Animations>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="Nova01">
+    <Name>ノヴァ</Name>
+    <Title>ノヴァ=ミュート</Title>
+    <Tags>Campaign, Default, Nova</Tags>
+    <Description>小悪魔系な見た目と中二病気質な口癖が特徴の少女。</Description>
+    <Flavor>祈れ、終焉の時だ！</Flavor>
+    <Weapon>NovaMute</Weapon>
+    <Health>700</Health>
+    <MaxHealth>700</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>4</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.6</ManaRegen>
+    <ShuffleTime>2</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>RandomBad</Deck>
+    <Deck>LargeSnake</Deck>
+    <Deck>PlayingSimilarInstruments</Deck>
+    <Artifacts>TradingPlaces</Artifacts>
+    <Artifacts>NeverSurrender</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Nova" splashSprite="Nova"
+      startingBrands="None,None"></Stats>
+  </Being>
+  <Being beingID="Nova02">
+    <Name>ノヴァ</Name>
+    <Title>ノヴァ=スーパーノヴァ</Title>
+    <Tags>Campaign, Nova</Tags>
+    <Description>小悪魔系な見た目と中二病気質な口癖が特徴の少女。</Description>
+    <Flavor>黒き闇には白き光を！</Flavor>
+    <Weapon>NovaSupernova</Weapon>
+    <Health>500</Health>
+    <MaxHealth>500</MaxHealth>
+    <Money>20</Money>
+    <MaxMana>6</MaxMana>
+    <BasicCooldown>0.1</BasicCooldown>
+    <ManaRegen>0.9</ManaRegen>
+    <ShuffleTime>1</ShuffleTime>
+    <InvulLength>0</InvulLength>
+    <Defense>0</Defense>
+    <LerpTime>0.1</LerpTime>
+    <Deck>RandomBad</Deck>
+    <Deck>LargeSnake</Deck>
+    <Deck>PlayingSimilarInstruments</Deck>
+    <Artifacts>HanpanaiDistraction</Artifacts>
+    <Artifacts>NeverSurrender</Artifacts>
+    <Stats localGunPointPos="30,30" animName="Nova" splashSprite="Nova"
+      startingBrands="None,None"></Stats>
+  </Being>
+</Beings>

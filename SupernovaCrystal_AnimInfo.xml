@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Animations>
+	<Animation loop="true" name="SupernovaCrystal_spawn" frameDuration="60">
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal1.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal2.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal3.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal4.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal5.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal6.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal7.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal8.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal9.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal10.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal11.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal12.png"></Frame>
+	</Animation>
+	<Animation loop="true" name="SupernovaCrystal_idle" frameDuration="120">
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal1.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal2.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal3.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal4.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal5.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal6.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal7.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal8.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal9.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal10.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal11.png"></Frame>
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal12.png"></Frame>
+	</Animation>
+	<Animation loop="false" name="SupernovaCrystal_hit" frameDuration="120">
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal1.png"></Frame>
+	</Animation>
+	<Animation loop="false" name="SupernovaCrystal_flinch" frameDuration="120">
+		<Frame image="sprites/SupernovaCrystal/SupernovaCrystal1.png"></Frame>
+	</Animation>
+</Animations>

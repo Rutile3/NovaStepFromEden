@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="NeverSurrenderResurrect" frameDuration="70">
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect1.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect2.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect3.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect4.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect5.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect6.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect7.png"></Frame>
+	<Frame image="sprites/NeverSurrenderResurrect/NeverSurrenderResurrect8.png"></Frame>
+</Animation>

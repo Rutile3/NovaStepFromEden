@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Beings>
+  <Being beingID="SupernovaCrystal">
+    <Name>Nova Crystal</Name>
+    <Startup></Startup>
+    <Health>120</Health>
+    <Experience>0</Experience>
+    <Money>0</Money>
+    <MovPattern></MovPattern>
+    <Movements></Movements>
+    <MovementDelay></MovementDelay>
+    <LerpTime></LerpTime>
+    <StartDelay>0</StartDelay>
+    <LoopDelay>2</LoopDelay>
+    <Defense></Defense>
+    <Stagger>false</Stagger>
+    <Deathrattle>Supernova</Deathrattle>
+    <Artifacts></Artifacts>
+    <DeathDelay>0.4</DeathDelay>
+    <Stats localGunPointPos="0,20" dieSound="glass_shatter_echo" animName="SupernovaCrystal"></Stats>
+  </Being>
+</Beings>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Artifacts>
+  <Artifact itemID="TradingPlaces">
+    <Name>だい！ぎゃく！てん！</Name>
+    <Tags>Player, Demo, Solo, NoDuplicate</Tags>
+    <App trigger="OnFrost" effect="CastSpell" value="FrostExplosion" chance="1.00"></App>
+    <Description>%hg%凍傷%/hg%ダメージを与えると、%hg%凍傷%/hg%属性の爆発を起こす。</Description>
+    <Meta>Apply frost to nearby enemies when frost dmg is dealt 100% chance</Meta>
+    <Flavor>科学は爆発だよ！</Flavor>
+    <Rarity>3</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="HanpanaiDistraction">
+    <Name>はんぱない・ディストラクション</Name>
+    <Tags>Player</Tags>
+    <App trigger="OnStructureKill" effect="CastSpell" value="HanpanaiDistractionFrostbolt"></App>
+    <Description>破壊された時、建造物がフロストボルトを射出。</Description>
+    <Meta>Structures frostbolt when they are destroyed</Meta>
+    <Flavor>教えてあげるよ。これが勝利の最適解だ!</Flavor>
+    <Rarity>3</Rarity>
+    <Brand></Brand>
+    <Params></Params>
+  </Artifact>
+  <Artifact itemID="NeverSurrender">
+    <Name>ネバー・サレンダー</Name>
+    <Tags>Player, Starting, Solo</Tags>
+    <App trigger="OnDeath" effect="CastSpell" value="NeverSurrenderResurrect"></App>
+    <App trigger="OnDeath" effect="Deplete"></App>
+    <Description>死亡時に、一度だけHPを200%hg%回復%/hg%。
+    </Description>
+    <Meta>Come back to life and heal 200 hp on death, only works once</Meta>
+    <Flavor>諦めないことを、前に叫ぶこと！</Flavor>
+    <Rarity>2</Rarity>
+    <Params></Params>
+  </Artifact>
+</Artifacts>

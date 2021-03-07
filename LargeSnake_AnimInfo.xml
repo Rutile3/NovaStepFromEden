@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Animation loop="true" name="LargeSnake" frameDuration="70">
+	<Frame image="sprites/LargeSnake/LargeSnake1.png"></Frame>
+	<Frame image="sprites/LargeSnake/LargeSnake2.png"></Frame>
+	<Frame image="sprites/LargeSnake/LargeSnake3.png"></Frame>
+	<Frame image="sprites/LargeSnake/LargeSnake4.png"></Frame>
+	<Frame image="sprites/LargeSnake/LargeSnake5.png"></Frame>
+</Animation>
