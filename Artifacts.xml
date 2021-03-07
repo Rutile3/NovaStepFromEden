@@ -2,7 +2,7 @@
 <Artifacts>
   <Artifact itemID="TradingPlaces">
     <Name>だい！ぎゃく！てん！</Name>
-    <Tags>Player, Demo, Solo, NoDuplicate</Tags>
+    <Tags>Player, Starting, Solo</Tags>
     <App trigger="OnFrost" effect="CastSpell" value="FrostExplosion" chance="1.00"></App>
     <Description>%hg%凍傷%/hg%ダメージを与えると、%hg%凍傷%/hg%属性の爆発を起こす。</Description>
     <Meta>Apply frost to nearby enemies when frost dmg is dealt 100% chance</Meta>
@@ -13,7 +13,7 @@
   </Artifact>
   <Artifact itemID="HanpanaiDistraction">
     <Name>はんぱない・ディストラクション</Name>
-    <Tags>Player</Tags>
+    <Tags>Player, Starting, Solo</Tags>
     <App trigger="OnStructureKill" effect="CastSpell" value="HanpanaiDistractionFrostbolt"></App>
     <Description>破壊された時、建造物がフロストボルトを射出。</Description>
     <Meta>Structures frostbolt when they are destroyed</Meta>
